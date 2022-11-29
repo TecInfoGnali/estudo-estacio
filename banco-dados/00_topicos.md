@@ -1,0 +1,159 @@
+# Banco de Dados
+
+## Sistemas de Banco de Dados
+
+### Reconhecer o histórico dos bancos de dados e suas tecnologias
+#### DEFINIÇÃO DE BANCO DE DADOS
+#### EVOLUÇÃO DOS SISTEMAS DE INFORMAÇÃO EM COMPUTADO
+#### REVOLUÇÃO DOS SISTEMAS DE BANCO DE DADOS
+#### PRINCIPAIS SGBDS RELACIONAIS
+
+### Identificar as características dos sistemas de banco de dados (SBD)
+#### DIFERENÇAS ENTRE SISTEMA DE ARQUIVOS E SISTEMA DE BANCO DE DADOS
+#### VANTAGENS E DESVANTAGENS DA ABORDAGEM DE BANCO DE DADOS
+#### PAPÉIS EM SISTEMAS DE BANCOS DE DADOS
+
+### Descrever a arquitetura dos sistemas de gerência de banco de dados (SGBD)
+#### COMPONENTES DE UM SISTEMA DE BANCO DE DADOS
+#### MÓDULOS DE UM SISTEMA DE GERÊNCIA DE BANCO DE DADOS
+#### UM EXEMPLO DE SGBD RELACIONAL: POSTGRESQL
+
+
+## Projeto de Banco de Dados – Modelagem Conceitual
+### Identificar as etapas de um projeto de banco de dados
+#### PROJETO DE BANCO DE DADOS
+#### LEVANTAMENTO DE REQUISITOS
+#### PROJETO CONCEITUAL
+#### PROJETO LÓGICO
+#### PROJETO FÍSICO
+
+### Reconhecer os elementos do diagrama de entidade e relacionamento
+#### ENTIDADE
+#### RELACIONAMENTO
+#### ATRIBUTO
+#### ESPECIALIZAÇÃO/GENERALIZAÇÃO
+#### ENTIDADE ASSOCIATIVA
+
+### Compreender a modelagem de entidades e relacionamentos
+#### OBJETIVOS AO CONSTRUIR UM DER
+#### MODELAGEM DE ENTIDADES E RELACIONAMENTOS
+#### MODELAGEM DE ENTIDADE ISOLADA
+#### MAIS SOBRE MODELAGEM DE ENTIDADES E RELACIONAMENTOS
+
+### Compreender a modelagem de atributos
+#### ATRIBUTO X ENTIDADE
+#### ATRIBUTO X ESPECIALIZAÇÃO
+#### ATRIBUTO OPCIONAL
+#### ATRIBUTO MULTIVALORADO
+#### ATRIBUTO X REDUNDÂNCIAA
+#### TRIBUTO COMPOSTO
+
+
+## Projeto De Banco De Dados – Modelagem Lógica E Física
+### Identificar os elementos do modelo relacional
+#### MODELO RELACIONAL
+#### COMPONENTES DE UMA TABELA
+#### CHAVE PRIMÁRIACHAVE ESTRANGEIRA
+#### ESQUEMA DIAGRAMÁTICO DE BANCO DE DADOS RELACIONAL
+#### 
+
+### Diferenciar formas normais
+#### NORMALIZAÇÃO
+#### PRIMEIRA FORMA NORMAL (1FN)
+#### SEGUNDA FORMA NORMAL (2FN)
+#### TERCEIRA FORMA NORMAL (3FN)
+#### 
+
+### Aplicar o mapeamento conceitual-lógico
+#### MAPEAMENTO CONCEITUAL-LÓGICO
+#### MAPEAMENTO DE ENTIDADES
+#### MAPEAMENTO DE RELACIONAMENTOS
+#### MAPEAMENTO DE ATRIBUTOS MULTIVALORADOS
+#### MAPEAMENTO DE ESPECIALIZAÇÃO/GENERALIZAÇÃO
+
+### Identificar aspectos físicos para implementação do modelo no SGBD
+#### CONSULTAS
+#### TRANSAÇÕES
+#### INDEXAÇÃO EM BANCO DE DADOS
+#### CONSULTAS ENVOLVENDO MAIS DE UMA TABELA
+#### DESNORMALIZAR PARA GANHAR DESEMPENHO
+
+
+## Criação e manipulação de objetos no PostgreSQL
+### Compreender o processo de instalação do PostgreSQL
+#### BREVE HISTÓRICO
+#### ARQUITETURA DO POSTGRESQL
+#### INSTALAÇÃO DO POSTGRESQL NO LINUX
+#### INSTALAÇÃO DO POSTGRESQL NO WINDOWS
+#### INTERFACES PARA INTERAGIR COM O POSTGRESQL
+#### CRIANDO DATABASES COM O PGADMIN 4 E COM O PSQL
+
+### Empregar comandos para criação e alteração de tabelas
+#### BREVE HISTÓRICO DA SQL
+#### ACESSO AO POSTGRESQL
+#### CRIANDO UM BANCO DE DADOS
+#### CRIANDO TABELASTIPOS DE DADOS
+#### ALTERAÇÃO DE TABELA
+#### CRIAÇÃO E ALTERAÇÃO DE TABELAS RELACIONADAS
+
+### Empregar comandos para manipular linhas nas tabelas
+#### MANIPULAÇÃO DE LINHAS NAS TABELAS
+#### INSERÇÃO DE LINHAS EM TABELA
+#### MECANISMO DE CHAVE PRIMÁRIA EM AÇÃO
+#### ATUALIZAÇÃO DE LINHAS EM TABELA
+#### ATUALIZAÇÃO DE COLUNA CHAVE PRIMÁRIA
+#### REMOÇÃO DE LINHAS EM TABELA
+
+### Empregar comandos de controle de transação
+#### TRANSAÇÕES EM BANCO DE DADOS
+#### TRANSAÇÕES NO POSTGRESQL
+#### UM POUCO MAIS SOBRE ATUALIZAÇÃO TEMPORÁRIA
+#### UM POUCO MAIS SOBRE TRANSAÇÃO DE LEITURA
+
+
+## Consultas em uma Tabela no Postgresql
+### Operar consultas com o comando SELECT
+#### ESTRUTURA BÁSICA DE UM COMANDO SELECT
+#### FUNÇÕES DE DATA E HORA
+#### FUNÇÕES DE RESUMO OU DE AGREGAÇÃO
+#### CRIANDO TABELA A PARTIR DE CONSULTA
+#### CRIANDO VIEW A PARTIR DE CONSULTA
+
+### Operar consultas usando a cláusula WHERE
+#### CLÁUSULA WHERE E OPERADORES DA SQL
+#### RECUPERANDO DADOS COM SELECT/FROM/WHERE/ORDER BY
+#### RECUPERANDO DADOS COM O USO DO OPERADOR IN
+#### RECUPERANDO DADOS COM O USO DO OPERADOR BETWEEN
+#### RECUPERANDO DADOS COM O USO DO OPERADOR LIKE
+#### RECUPERANDO DADOS COM O USO DO OPERADOR NULL
+#### RECUPERANDO DADOS USANDO ORDENAÇÃO DOS RESULTADOS
+
+### Operar consultas envolvendo agrupamento de dados
+#### CONSULTAS COM GROUP BY E HAVING
+#### GRUPO DE DADOS
+#### GRUPO DE DADOS COM GROUP BY
+#### GRUPO DE DADOS COM GROUP BY E HAVING
+
+
+## Consulta com várias tabelas no POSTGRESQL
+### Operar consultas envolvendo junções interior e exterior
+#### OPERAÇÃO DE JUNÇÃO DE TABELAS
+#### OPERAÇÃO DE PRODUTO CARTESIANO
+#### JUNÇÃO INTERNA
+#### JUNÇÃO EXTERNA
+
+### Operar subconsultas aninhadas e correlatas
+#### SUBCONSULTAS
+#### SUBCONSULTAS ANINHADAS
+#### SUBCONSULTAS CORRELATAS
+#### CONSULTA CORRELACIONADA COM USO DE [NOT] EXISTS
+
+### Operar consultas com o uso de operadores de conjunto
+#### OPERADORES DE CONJUNTO
+#### CONSULTAS COM O OPERADOR UNION
+#### CONSULTAS COM O OPERADOR INTERSECT
+#### CONSULTAS COM O OPERADOR EXCEPT
+
+
+
+
